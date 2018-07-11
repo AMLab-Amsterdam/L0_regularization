@@ -169,7 +169,6 @@ def main():
             'best_prec1': best_prec1,
             'curr_prec1': prec1,
             'optimizer': optimizer.state_dict(),
-            'type_net': args.type_net,
             'total_steps': total_steps,
             'time_acc': time_acc,
             'exp_flops': exp_flops,
